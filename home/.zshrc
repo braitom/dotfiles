@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/Users/kaigi/dev/Android-SDK/sdk/platform-tools:/Users/kaigi/.rbenv/shims:/Users/kaigi/.rbenv/bin:/Users/kaigi/.pyenv/shims:/Users/kaigi/.pyenv/bin:/Users/kaigi/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -66,4 +66,20 @@ export PATH="/Users/kaigi/dev/Android-SDK/sdk/platform-tools:/Users/kaigi/.rbenv
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+#nodebrew
+if [[ -f ~/.nodebrew/nodebrew ]]; then
+    export PATH=$HOME/.nodebrew/current/bin:$PATH
+    nodebrew use v0.10
+fi
+
+#pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+
+#rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+export PATH="$HOME/dev/Android-SDK/sdk/platform-tools:$PATH"
 
