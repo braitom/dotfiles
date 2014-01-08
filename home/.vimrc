@@ -26,7 +26,7 @@ set laststatus=2
 set statusline=%F%r%h%=
 
 set number
-
+set clipboard=unnamed,autoselect
 set incsearch
 set ignorecase
 
