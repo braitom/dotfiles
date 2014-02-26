@@ -11,6 +11,7 @@ ZSH_THEME="wedisagree"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias LightPaper="open -a /Applications/LightPaper.app"
+alias mou="open -a /Applications/Mou.app"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"

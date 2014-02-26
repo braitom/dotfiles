@@ -21,7 +21,7 @@ set backspace=start,eol,indent
 set whichwrap=b,s,[,],<,>,~
 syntax on
 set nohlsearch
-
+set encoding='utf-8'
 set laststatus=2
 set statusline=%F%r%h%=
 
