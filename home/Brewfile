@@ -12,6 +12,7 @@ install hub
 install vim --devel --with-lua
 install zsh
 install subversion
+install pyenv
 install openssl
 install readline
 install rbenv
