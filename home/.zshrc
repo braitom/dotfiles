@@ -83,5 +83,8 @@ eval "$(pyenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+#Android
 export PATH="$HOME/dev/Android-SDK/sdk/platform-tools:$PATH"
 
+#Pebble
+export PATH="$HOME/pebble-dev/PebbleSDK-current/bin:$PATH"
