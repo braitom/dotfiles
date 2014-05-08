@@ -12,6 +12,7 @@ install hub
 install vim --devel --with-lua
 install zsh
 install subversion
+install mercurial
 install pyenv
 install openssl
 install readline
@@ -23,7 +24,7 @@ cleanup
 # install brew-cask
 install brew-cask
 
-# cask install alfred
+# cask install
 cask install alfred
 cask install google-chrome
 cask install google-japanese-ime
@@ -47,7 +48,6 @@ cask install silverlight
 cask install sizeup
 cask install sublime-text
 cask install onepassword
-cask install caffeine
 cask install cloud
 cask install clipmenu
 cask install sophos-anti-virus-home-edition
@@ -57,7 +57,6 @@ cask install rstudio
 cask install rescuetime
 cask install sequel-pro
 cask install sourcetree
-
 
 cask alfred link
 
