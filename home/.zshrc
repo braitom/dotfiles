@@ -88,3 +88,7 @@ export PATH="$HOME/dev/Android-SDK/sdk/platform-tools:$PATH"
 
 #Pebble
 export PATH="$HOME/pebble-dev/PebbleSDK-current/bin:$PATH"
+
+#Docker
+export DOCKER_HOST=tcp://localhost:4243
+

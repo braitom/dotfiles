@@ -2,7 +2,7 @@ update
 
 # add repositories
 tap homebrew/binary
-tap phinze/homebrew-cask
+tap caskroom/homebrew-cask
 
 install jq
 install git
