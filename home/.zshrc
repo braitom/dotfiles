@@ -90,5 +90,14 @@ export PATH="$HOME/dev/Android-SDK/sdk/platform-tools:$PATH"
 export PATH="$HOME/pebble-dev/PebbleSDK-current/bin:$PATH"
 
 #Docker
-export DOCKER_HOST=tcp://localhost:4243
+export DOCKER_HOST=tcp://localhost:2375
 
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+#for go lang
+if [ -x "`which go`" ]; then
+  export GOROOT=`go env GOROOT`
+  export GOPATH=$HOME/go
+  export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+fi
